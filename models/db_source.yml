@@ -1,14 +1,14 @@
 version: 2
 
 sources:
-  - name: normalized_data_swavibr
+- name: normalized_data_swavibr
     description: This is a replica of the Bigquery database used by our Data Warehouse
     tables:
-      - name: accounts
+- name: accounts
         description: >
           One record per order. Includes cancelled and deleted orders.
         columns:
-			- name : domestic_balance
+- name : domestic_balance
 - name : currency
 - name : last_modified_by
 - name : created_by
