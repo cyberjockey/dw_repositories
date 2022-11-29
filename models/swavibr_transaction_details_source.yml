@@ -1,0 +1,9 @@
+sources:
+  - name: swavibr_transaction_details
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: transaction_details
+        columns:
+        - name : timestamp
+        - name : value
+        - name : offset.
