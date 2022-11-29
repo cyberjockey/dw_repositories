@@ -1,0 +1,11 @@
+sources:
+  - name: normalized_data_swavibr
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: approval_limits
+        columns:
+        - name : a_limit
+        - name : a_role
+        - name : loan_product_id
+        - name : id
+        - name : value_op.
