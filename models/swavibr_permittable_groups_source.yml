@@ -1,0 +1,9 @@
+sources:
+  - name: swavibr_permittable_groups
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: permittable_groups
+        columns:
+        - name : timestamp
+        - name : value
+        - name : offset.
