@@ -1,0 +1,9 @@
+sources:
+  - name: swavibr_loan_agreement_terms
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: loan_agreement_terms
+        columns:
+        - name : timestamp
+        - name : value
+        - name : offset.
