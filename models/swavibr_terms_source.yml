@@ -1,0 +1,9 @@
+sources:
+  - name: swavibr_terms
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: terms
+        columns:
+        - name : timestamp
+        - name : value
+        - name : offset.
