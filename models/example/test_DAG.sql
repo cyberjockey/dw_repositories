@@ -3,7 +3,7 @@ with test_DAG1 as (
 ),
 
 with test_DAG2 as (
-    select * from {{ source('normalized_data_swavibr_actions_source','actions_source')}}
+    select * from {{ source('normalized_data_swavibr_actions','actions')}}
 )
 
 final as (
