@@ -1,0 +1,9 @@
+sources:
+  - name: swavibr_report_user_mapping
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: report_user_mapping
+        columns:
+        - name : timestamp
+        - name : value
+        - name : offset.
