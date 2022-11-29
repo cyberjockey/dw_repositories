@@ -1,0 +1,9 @@
+sources:
+  - name: swavibr_org_units_type
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: org_units_type
+        columns:
+        - name : timestamp
+        - name : value
+        - name : offset.
