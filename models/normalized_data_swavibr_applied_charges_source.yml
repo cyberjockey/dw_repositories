@@ -1,9 +1,7 @@
+version: 2
+
 sources:
-<<<<<<< HEAD:models/normalized_data_swavibr_applied_charges_source.yml
   - name: normalized_data_swavibr_applied_charges
-=======
-  - name: normalized_data_swavibr
->>>>>>> 86a62e554421a4f4e8043a05076ba5f82e799f3b:models/normalized_data_swavibr.applied_charges_source.yml
     description: This is a replica of the Postgres database used by our app
     tables:
       - name: applied_charges
