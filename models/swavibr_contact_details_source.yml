@@ -1,9 +1,0 @@
-sources:
-  - name: swavibr_contact_details
-    description: This is a replica of the Postgres database used by our app
-    tables:
-      - name: contact_details
-        columns:
-        - name : timestamp
-        - name : value
-        - name : offset.
