@@ -1,0 +1,9 @@
+sources:
+  - name: swavibr_multi_targets
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: multi_targets
+        columns:
+        - name : timestamp
+        - name : value
+        - name : offset.
