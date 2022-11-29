@@ -1,0 +1,9 @@
+sources:
+  - name: swavibr_target_detail
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: target_detail
+        columns:
+        - name : timestamp
+        - name : value
+        - name : offset.
