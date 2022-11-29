@@ -1,0 +1,9 @@
+sources:
+  - name: swavibr_identifiers_set_counter
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: identifiers_set_counter
+        columns:
+        - name : timestamp
+        - name : value
+        - name : offset.
