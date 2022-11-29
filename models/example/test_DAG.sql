@@ -1,5 +1,5 @@
 with test_DAG as (
-    select * from {{{ source('normalized_data_swavibr', 'accounts') }}
+    select * from {{ source('normalized_data_swavibr', 'accounts') }}
 ),
 
 final as (
