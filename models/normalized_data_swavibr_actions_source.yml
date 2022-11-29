@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: normalized_data_swavibr_actions_source
+  - name: normalized_data_swavibr_actions
     description: This is a replica of the Postgres database used by our app
     tables:
       - name: actions
