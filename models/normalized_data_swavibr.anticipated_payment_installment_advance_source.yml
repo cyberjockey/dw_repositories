@@ -1,0 +1,13 @@
+sources:
+  - name: normalized_data_swavibr
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: anticipated_payment_installment_advance
+        columns:
+        - name : anticipated_payment_type
+        - name : id
+        - name : multi_leg_transaction_id
+        - name : enable
+        - name : anticipated_payment_or_installment_advance
+        - name : additional_amount
+        - name : value_op.
