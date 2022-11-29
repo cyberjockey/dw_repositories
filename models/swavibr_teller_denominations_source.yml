@@ -1,0 +1,9 @@
+sources:
+  - name: swavibr_teller_denominations
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: teller_denominations
+        columns:
+        - name : timestamp
+        - name : value
+        - name : offset.
