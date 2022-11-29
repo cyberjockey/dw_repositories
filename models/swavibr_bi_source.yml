@@ -1,9 +1,0 @@
-sources:
-  - name: swavibr_bi
-    description: This is a replica of the Postgres database used by our app
-    tables:
-      - name: bi
-        columns:
-        - name : timestamp
-        - name : value
-        - name : offset.
