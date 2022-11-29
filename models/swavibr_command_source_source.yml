@@ -1,0 +1,9 @@
+sources:
+  - name: swavibr_command_source
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: command_source
+        columns:
+        - name : timestamp
+        - name : value
+        - name : offset.
