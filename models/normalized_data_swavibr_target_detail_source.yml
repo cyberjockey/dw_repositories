@@ -1,0 +1,12 @@
+sources:
+  - name: normalized_data_swavibr_target_detail
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: target_detail
+        columns:
+        - name : total_amount
+        - name : transaction_identifier
+        - name : identifier
+        - name : multi_targets_id
+        - name : id
+        - name : value_op.
