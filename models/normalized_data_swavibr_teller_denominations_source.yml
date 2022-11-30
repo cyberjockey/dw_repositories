@@ -1,0 +1,14 @@
+sources:
+  - name: normalized_data_swavibr_teller_denominations
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: teller_denominations
+        columns:
+        - name : created_by
+        - name : created_on
+        - name : adjusting_journal_entry
+        - name : counted_total
+        - name : note
+        - name : teller_id
+        - name : id
+        - name : value_op.
