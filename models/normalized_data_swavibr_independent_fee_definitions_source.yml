@@ -1,0 +1,15 @@
+sources:
+  - name: normalized_data_swavibr_independent_fee_definitions
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: independent_fee_definitions
+        columns:
+        - name : org_id
+        - name : enter_at_transaction
+        - name : description
+        - name : name
+        - name : identifier
+        - name : fee_amount
+        - name : revenue_ledger
+        - name : id
+        - name : value_op.
