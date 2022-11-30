@@ -1,9 +1,0 @@
-sources:
-  - name: swavibr_eav_field_values
-    description: This is a replica of the Postgres database used by our app
-    tables:
-      - name: eav_field_values
-        columns:
-        - name : timestamp
-        - name : value
-        - name : offset.

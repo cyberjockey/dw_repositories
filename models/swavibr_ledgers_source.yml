@@ -1,9 +1,0 @@
-sources:
-  - name: swavibr_ledgers
-    description: This is a replica of the Postgres database used by our app
-    tables:
-      - name: ledgers
-        columns:
-        - name : timestamp
-        - name : value
-        - name : offset.

@@ -1,9 +1,0 @@
-sources:
-  - name: swavibr_report_category
-    description: This is a replica of the Postgres database used by our app
-    tables:
-      - name: report_category
-        columns:
-        - name : timestamp
-        - name : value
-        - name : offset.
