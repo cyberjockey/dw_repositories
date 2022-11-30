@@ -8,6 +8,6 @@ sources:
         - name : scale
         - name : a_name
         - name : a_code
-        - name : fee_definition_id
+        - name : product_definition_id
         - name : id
         - name : value_op.
