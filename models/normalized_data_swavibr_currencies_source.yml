@@ -4,10 +4,7 @@ sources:
     tables:
       - name: currencies
         columns:
-        - name : sign
-        - name : scale
-        - name : a_name
-        - name : a_code
-        - name : product_definition_id
-        - name : id
+        - name : is_active
+        - name : is_domestic
+        - name : code
         - name : value_op.
