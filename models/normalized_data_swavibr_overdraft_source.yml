@@ -1,0 +1,21 @@
+sources:
+  - name: normalized_data_swavibr_overdraft
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: overdraft
+        columns:
+        - name : last_modified_by
+        - name : last_modified_on
+        - name : revolving_duration
+        - name : created_on
+        - name : created_by
+        - name : revolving_amount
+        - name : revolving_period
+        - name : org_id
+        - name : end_date
+        - name : interest_rate
+        - name : amount
+        - name : start_date
+        - name : product_instance_id
+        - name : id
+        - name : value_op.
