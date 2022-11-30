@@ -1,0 +1,41 @@
+sources:
+  - name: normalized_data_swavibr_loan_agreements
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: loan_agreements
+        columns:
+        - name : surplus_delivery_mode
+        - name : last_modified_by
+        - name : last_modified_on
+        - name : restructuring_type
+        - name : created_by
+        - name : created_on
+        - name : expected_payment_date
+        - name : secured_amount
+        - name : in_restructuring
+        - name : collateral_account
+        - name : disbursement_method
+        - name : loss_allowance_amount
+        - name : ecl_stage
+        - name : delinquency_resolved_on
+        - name : delinquent_since
+        - name : product_short_name
+        - name : account
+        - name : disbursed_amount
+        - name : amount_on_hold
+        - name : disbursed_on
+        - name : last_transaction_date
+        - name : disbursement_target_account
+        - name : arrears_account
+        - name : loan_sub_type
+        - name : a_state
+        - name : new_account
+        - name : org_id
+        - name : collateral_reference
+        - name : purpose
+        - name : guarantor
+        - name : customer
+        - name : agreement_term_id
+        - name : loan_type
+        - name : id
+        - name : value_op.
