@@ -1,0 +1,22 @@
+sources:
+  - name: normalized_data_swavibr_journal_entries
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: journal_entries
+        columns:
+        - name : org_id
+        - name : created_by
+        - name : created_on
+        - name : creditors
+        - name : debtors
+        - name : currency
+        - name : clerk
+        - name : transaction_date
+        - name : transaction_type
+        - name : transaction_identifier
+        - name : message
+        - name : state
+        - name : voucher_number
+        - name : note
+        - name : id
+        - name : value_op.
