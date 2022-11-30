@@ -1,0 +1,31 @@
+version: 2
+
+sources:
+  - name: normalized_data_swavibr_messages
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: messages
+        columns:
+        - name : org_id
+        - name : message_text
+        - name : provider_id
+        - name : message_type
+        - name : last_modified_on
+        - name : last_modified_by
+        - name : created_on
+        - name : created_by
+        - name : created_identifier
+        - name : application_id
+        - name : request_state
+        - name : submitted_at
+        - name : completed_at
+        - name : customer_id
+        - name : destination
+        - name : reference_number
+        - name : processed_at
+        - name : country_code
+        - name : message
+        - name : submitted_by
+        - name : identifier
+        - name : id
+        - name : value_op.

@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: normalized_data_swavibr_loan_restructures
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: loan_restructures
+        columns:
+        - name : a_state
+        - name : moratorium_repayment_type
+        - name : loan_agreement_id
+        - name : a_note
+        - name : created_by
+        - name : disbursed_amount
+        - name : created_on
+        - name : a_sequence
+        - name : moratorium_starting_installment
+        - name : moratorium_length
+        - name : id
+        - name : term_history_id
+        - name : value_op.

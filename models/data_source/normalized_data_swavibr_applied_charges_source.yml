@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: normalized_data_swavibr_applied_charges
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: applied_charges
+        columns:
+        - name : partial_paid
+        - name : liability_account
+        - name : reference_id
+        - name : generated_on
+        - name : term_no
+        - name : a_state
+        - name : revenue_account
+        - name : ad_hoc
+        - name : amount
+        - name : an_action
+        - name : description
+        - name : charge_type
+        - name : initial_amount
+        - name : loan_agreement_id
+        - name : use_liability_account
+        - name : prioritization
+        - name : id
+        - name : value_op.

@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: normalized_data_swavibr_tx_types
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: tx_types
+        columns:
+        - name : description
+        - name : a_name
+        - name : identifier
+        - name : id
+        - name : value_op.

@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: normalized_data_swavibr_transaction_entries
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: transaction_entries
+        columns:
+        - name : amount
+        - name : org_id
+        - name : type
+        - name : transaction_id
+        - name : account_id
+        - name : id
+        - name : value_op.

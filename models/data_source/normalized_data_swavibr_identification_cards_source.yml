@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: normalized_data_swavibr_identification_cards
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: identification_cards
+        columns:
+        - name : last_modified_by
+        - name : created_by
+        - name : customer_id
+        - name : last_modified_on
+        - name : issuer
+        - name : expiration_date
+        - name : a_number
+        - name : created_on
+        - name : a_type
+        - name : show_on_profile
+        - name : id
+        - name : value_op.

@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: normalized_data_swavibr_actions
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: actions
+        columns:
+        - name : transaction_type
+        - name : description
+        - name : a_name
+        - name : identifier
+        - name : id
+        - name : value_op.

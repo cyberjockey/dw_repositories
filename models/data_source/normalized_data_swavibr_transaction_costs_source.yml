@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: normalized_data_swavibr_transaction_costs
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: transaction_costs
+        columns:
+        - name : earnable_interest
+        - name : total_amount
+        - name : multi_leg_transaction_id
+        - name : id
+        - name : value_op.

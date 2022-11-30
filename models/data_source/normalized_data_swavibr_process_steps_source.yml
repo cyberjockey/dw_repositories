@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: normalized_data_swavibr_process_steps
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: process_steps
+        columns:
+        - name : confirmed_on
+        - name : is_confirmed
+        - name : confirmed_by
+        - name : loan_agreement_id
+        - name : a_note
+        - name : created_by
+        - name : description
+        - name : a_sequence
+        - name : a_type
+        - name : created_on
+        - name : is_guarantor_needed
+        - name : a_command
+        - name : id
+        - name : value_op.
