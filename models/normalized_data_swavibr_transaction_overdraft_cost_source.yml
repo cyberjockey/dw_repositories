@@ -1,0 +1,13 @@
+sources:
+  - name: normalized_data_swavibr_transaction_overdraft_cost
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: transaction_overdraft_cost
+        columns:
+        - name : amount
+        - name : a_name
+        - name : a_code
+        - name : id
+        - name : multi_leg_transaction_id
+        - name : revenue_payable_account
+        - name : value_op.
