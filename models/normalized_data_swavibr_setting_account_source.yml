@@ -1,0 +1,17 @@
+sources:
+  - name: normalized_data_swavibr_setting_account
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: setting_account
+        columns:
+        - name : setting_type
+        - name : org_id
+        - name : last_modified_by
+        - name : last_modified_on
+        - name : created_by
+        - name : description
+        - name : setting_value
+        - name : setting_key
+        - name : created_on
+        - name : id
+        - name : value_op.
