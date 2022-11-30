@@ -1,0 +1,43 @@
+sources:
+  - name: normalized_data_swavibr_ubud_members
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: ubud_members
+        columns:
+        - name : membership_type
+        - name : org_id
+        - name : full_name
+        - name : country_code
+        - name : region
+        - name : city
+        - name : street
+        - name : id_card_number
+        - name : mobile_phone_number
+        - name : processed_at
+        - name : middle_name
+        - name : given_name
+        - name : last_modified_on
+        - name : last_modified_by
+        - name : email_address
+        - name : created_on
+        - name : additional_address_information
+        - name : passport_number
+        - name : postal_code
+        - name : created_by
+        - name : created_identifier
+        - name : application_id
+        - name : date_of_birth
+        - name : request_state
+        - name : calling_code
+        - name : submitted_by
+        - name : reference_number
+        - name : submitted_at
+        - name : surname
+        - name : non_member
+        - name : driver_license_number
+        - name : customer_id
+        - name : message
+        - name : identifier
+        - name : completed_at
+        - name : id
+        - name : value_op.
