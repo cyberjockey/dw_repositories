@@ -1,0 +1,24 @@
+sources:
+  - name: normalized_data_swavibr_org_units_contact_details
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: org_units_contact_details
+        columns:
+        - name : email
+        - name : phone_number
+        - name : whatsapp_number
+        - name : additional_address_field
+        - name : postal_code
+        - name : title
+        - name : last_name
+        - name : country
+        - name : identifier
+        - name : city
+        - name : mobile_number
+        - name : role
+        - name : position
+        - name : description
+        - name : first_name
+        - name : street
+        - name : id
+        - name : value_op.
