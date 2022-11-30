@@ -1,0 +1,39 @@
+version: 2
+
+sources:
+  - name: normalized_data_swavibr_loan_products
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: loan_products
+        columns:
+        - name : loan_appropriations_account
+        - name : loan_appropriations_revenue_ledger
+        - name : enable_anticipated_payment_and_installment_advance
+        - name : org_id
+        - name : last_modified_by
+        - name : last_modified_on
+        - name : short_name
+        - name : created_by
+        - name : dti_risked
+        - name : created_on
+        - name : arrears_ledger
+        - name : stop_accrual_after_days
+        - name : purposes
+        - name : id
+        - name : ecl_id
+        - name : term_id
+        - name : collateral_id
+        - name : payment_policy
+        - name : funding_account
+        - name : description
+        - name : currency_id
+        - name : use_loan_appropriations_revenue_ledger
+        - name : is_active
+        - name : dti_preferred
+        - name : loan_appropriations_ledger
+        - name : loan_sub_type
+        - name : member_loan_ledger
+        - name : a_name
+        - name : documentation_requirements
+        - name : loan_type
+        - name : value_op.

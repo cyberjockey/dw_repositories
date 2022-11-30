@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: normalized_data_swavibr_transaction_details
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: transaction_details
+        columns:
+        - name : product_currency
+        - name : transaction_type
+        - name : fee_amount
+        - name : customer_number
+        - name : cheque_id
+        - name : amount
+        - name : product_short_code
+        - name : multi_leg_transaction_id
+        - name : product_type
+        - name : id
+        - name : party
+        - name : account_number
+        - name : payment_type
+        - name : value_op.

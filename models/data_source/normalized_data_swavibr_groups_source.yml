@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+  - name: normalized_data_swavibr_groups
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: groups
+        columns:
+        - name : branch_identifier
+        - name : current_state
+        - name : org_id
+        - name : last_modified_on
+        - name : current_cycle
+        - name : last_modified_by
+        - name : created_by
+        - name : created_on
+        - name : meeting_cycle
+        - name : id
+        - name : group_name
+        - name : meeting_address_id
+        - name : first_meeting_date
+        - name : identifier
+        - name : officer_identifier
+        - name : value_op.

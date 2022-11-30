@@ -1,0 +1,28 @@
+version: 2
+
+sources:
+  - name: normalized_data_swavibr_multi_leg_transactions
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: multi_leg_transactions
+        columns:
+        - name : manual_principal
+        - name : last_modified_by
+        - name : last_modified_on
+        - name : created_by
+        - name : org_id
+        - name : a_state
+        - name : clerk
+        - name : total_amount
+        - name : msa_type
+        - name : transaction_date
+        - name : a_type
+        - name : created_on
+        - name : manual_interest
+        - name : note
+        - name : transaction_code
+        - name : voucher_number
+        - name : transaction_identifier
+        - name : teller_id
+        - name : id
+        - name : value_op.

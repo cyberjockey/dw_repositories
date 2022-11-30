@@ -1,9 +1,0 @@
-sources:
-  - name: normalized_data_swavibr_org_units_assigned_contacts
-    description: This is a replica of the Postgres database used by our app
-    tables:
-      - name: org_units_assigned_contacts
-        columns:
-        - name : contact_id
-        - name : org_unit_db_id
-        - name : value_op.

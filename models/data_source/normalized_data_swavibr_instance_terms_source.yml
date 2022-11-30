@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: normalized_data_swavibr_instance_terms
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: instance_terms
+        columns:
+        - name : accrual_account
+        - name : payable
+        - name : amount
+        - name : period
+        - name : length
+        - name : product_instance_id
+        - name : expense_account
+        - name : id
+        - name : value_op.

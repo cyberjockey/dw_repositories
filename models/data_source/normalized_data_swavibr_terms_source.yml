@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+  - name: normalized_data_swavibr_terms
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: terms
+        columns:
+        - name : max_amount
+        - name : max_length
+        - name : length
+        - name : accrual_account
+        - name : period_range_enabled
+        - name : payable
+        - name : amount
+        - name : is_fix
+        - name : product_definition_id
+        - name : period
+        - name : a_sequence
+        - name : identifier
+        - name : expense_account
+        - name : interest_range_enabled
+        - name : id
+        - name : value_op.

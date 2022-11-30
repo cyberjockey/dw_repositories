@@ -1,0 +1,31 @@
+version: 2
+
+sources:
+  - name: normalized_data_swavibr_product_instances
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: product_instances
+        columns:
+        - name : joint_account
+        - name : last_modified_on
+        - name : created_by
+        - name : opened_by
+        - name : term_maturity_interest_account_ref
+        - name : created_on
+        - name : last_modified_by
+        - name : collateral_account
+        - name : amount_on_hold
+        - name : last_transaction_on
+        - name : term_maturity_account_ref
+        - name : id
+        - name : maturity_date
+        - name : beneficiaries
+        - name : term_auto_renewal
+        - name : customer
+        - name : opened_on
+        - name : org_id
+        - name : a_state
+        - name : product_definition_id
+        - name : admin_fee_ref_account
+        - name : account
+        - name : value_op.

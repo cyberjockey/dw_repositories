@@ -1,0 +1,30 @@
+version: 2
+
+sources:
+  - name: normalized_data_swavibr_customers
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: customers
+        columns:
+        - name : member_type
+        - name : last_modified_on
+        - name : created_by
+        - name : application_date
+        - name : assigned_employee
+        - name : reference_customer
+        - name : address_id
+        - name : date_of_birth
+        - name : surname
+        - name : last_modified_by
+        - name : assigned_office
+        - name : given_name
+        - name : is_member
+        - name : identifier
+        - name : org_id
+        - name : current_state
+        - name : middle_name
+        - name : created_on
+        - name : a_type
+        - name : account_beneficiary
+        - name : id
+        - name : value_op.

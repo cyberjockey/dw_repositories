@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: normalized_data_swavibr_loan_settings
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: loan_settings
+        columns:
+        - name : recall_loan
+        - name : complete_loan
+        - name : disburse_to_deposit
+        - name : reopen_loan
+        - name : id
+        - name : value_op.
