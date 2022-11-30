@@ -1,0 +1,13 @@
+sources:
+  - name: normalized_data_swavibr_currencies
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: currencies
+        columns:
+        - name : sign
+        - name : scale
+        - name : a_name
+        - name : a_code
+        - name : fee_definition_id
+        - name : id
+        - name : value_op.
