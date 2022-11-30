@@ -1,5 +1,3 @@
-version: 2
-
 sources:
   - name: normalized_data_swavibr_applied_charges
     description: This is a replica of the Postgres database used by our app
