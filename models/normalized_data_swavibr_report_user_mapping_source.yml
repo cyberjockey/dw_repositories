@@ -1,0 +1,11 @@
+sources:
+  - name: normalized_data_swavibr_report_user_mapping
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: report_user_mapping
+        columns:
+        - name : user_id
+        - name : employee_id
+        - name : username
+        - name : id
+        - name : value_op.
