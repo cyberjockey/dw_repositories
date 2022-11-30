@@ -1,0 +1,13 @@
+sources:
+  - name: normalized_data_swavibr_report_group
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: report_group
+        columns:
+        - name : is_secure
+        - name : group_status
+        - name : id
+        - name : group_name
+        - name : group_description
+        - name : group_id
+        - name : value_op.
