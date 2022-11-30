@@ -1,0 +1,12 @@
+sources:
+  - name: normalized_data_swavibr_daily_interests
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: daily_interests
+        columns:
+        - name : org_id
+        - name : last_modified_on
+        - name : amount
+        - name : customer_account_identifier
+        - name : id
+        - name : value_op.
