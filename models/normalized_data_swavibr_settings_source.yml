@@ -4,11 +4,6 @@ sources:
     tables:
       - name: settings
         columns:
-        - name : last_modified_on
-        - name : last_modified_by
-        - name : created_by
-        - name : setting
-        - name : identifier
-        - name : created_on
+        - name : domestic_currency
         - name : id
         - name : value_op.
