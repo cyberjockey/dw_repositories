@@ -1,0 +1,15 @@
+sources:
+  - name: normalized_data_swavibr_command_source
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: command_source
+        columns:
+        - name : processed
+        - name : failure_message
+        - name : command
+        - name : command_class
+        - name : failed
+        - name : id
+        - name : source
+        - name : created_on
+        - name : value_op.
