@@ -1,0 +1,9 @@
+sources:
+  - name: normalized_data_swavibr_identifier_customer_sequences
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: identifier_customer_sequences
+        columns:
+        - name : created_on
+        - name : id
+        - name : value_op.
