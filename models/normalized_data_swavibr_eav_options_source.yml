@@ -1,0 +1,14 @@
+sources:
+  - name: normalized_data_swavibr_eav_options
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: eav_options
+        columns:
+        - name : a_position
+        - name : created_on
+        - name : created_by
+        - name : a_label
+        - name : a_value
+        - name : field_id
+        - name : id
+        - name : value_op.
