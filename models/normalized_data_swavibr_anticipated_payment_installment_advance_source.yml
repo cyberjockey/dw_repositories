@@ -1,5 +1,3 @@
-version: 2
-
 sources:
   - name: normalized_data_swavibr_anticipated_payment_installment_advance
     description: This is a replica of the Postgres database used by our app
