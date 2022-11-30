@@ -1,0 +1,12 @@
+sources:
+  - name: normalized_data_swavibr_currency_catalog
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: currency_catalog
+        columns:
+        - name : a_group
+        - name : scale
+        - name : a_name
+        - name : numeric_code
+        - name : code
+        - name : value_op.
