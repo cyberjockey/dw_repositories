@@ -1,0 +1,19 @@
+sources:
+  - name: normalized_data_swavibr_loan_term_history
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: loan_term_history
+        columns:
+        - name : original_amortization_schedule
+        - name : length
+        - name : interest_rate
+        - name : automatic_payment_account
+        - name : payment
+        - name : first_due_date
+        - name : raw_amortization_schedule
+        - name : principal
+        - name : payment_period
+        - name : pending_payment
+        - name : period
+        - name : id
+        - name : value_op.
