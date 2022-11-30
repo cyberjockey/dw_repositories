@@ -1,21 +1,16 @@
-version: 2
-
 sources:
   - name: normalized_data_swavibr_addresses
     description: This is a replica of the Postgres database used by our app
     tables:
       - name: addresses
         columns:
-        - name : org_id
-        - name : last_modified_by
-        - name : created_on
-        - name : region
+        - name : phone
         - name : country_code
-        - name : last_modified_on
         - name : country
         - name : postal_code
         - name : city
-        - name : created_by
         - name : street
+        - name : region
+        - name : office_id
         - name : id
         - name : value_op.
