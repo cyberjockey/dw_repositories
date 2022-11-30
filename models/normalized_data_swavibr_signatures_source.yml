@@ -1,0 +1,14 @@
+sources:
+  - name: normalized_data_swavibr_signatures
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: signatures
+        columns:
+        - name : private_key_mod
+        - name : private_key_exp
+        - name : id
+        - name : valid
+        - name : public_key_exp
+        - name : public_key_mod
+        - name : key_timestamp
+        - name : value_op.
