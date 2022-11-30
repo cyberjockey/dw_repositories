@@ -1,9 +1,0 @@
-sources:
-  - name: swavibr_journal_entries
-    description: This is a replica of the Postgres database used by our app
-    tables:
-      - name: journal_entries
-        columns:
-        - name : timestamp
-        - name : value
-        - name : offset.

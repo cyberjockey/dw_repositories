@@ -1,9 +1,0 @@
-sources:
-  - name: swavibr_term_of_services_history
-    description: This is a replica of the Postgres database used by our app
-    tables:
-      - name: term_of_services_history
-        columns:
-        - name : timestamp
-        - name : value
-        - name : offset.

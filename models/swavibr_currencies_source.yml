@@ -1,9 +1,0 @@
-sources:
-  - name: swavibr_currencies
-    description: This is a replica of the Postgres database used by our app
-    tables:
-      - name: currencies
-        columns:
-        - name : timestamp
-        - name : value
-        - name : offset.

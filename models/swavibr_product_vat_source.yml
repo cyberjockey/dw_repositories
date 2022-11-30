@@ -1,9 +1,0 @@
-sources:
-  - name: swavibr_product_vat
-    description: This is a replica of the Postgres database used by our app
-    tables:
-      - name: product_vat
-        columns:
-        - name : timestamp
-        - name : value
-        - name : offset.

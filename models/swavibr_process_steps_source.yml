@@ -1,9 +1,0 @@
-sources:
-  - name: swavibr_process_steps
-    description: This is a replica of the Postgres database used by our app
-    tables:
-      - name: process_steps
-        columns:
-        - name : timestamp
-        - name : value
-        - name : offset.
