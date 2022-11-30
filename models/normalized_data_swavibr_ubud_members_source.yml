@@ -1,8 +1,8 @@
 sources:
-  - name: normalized_data_swavibr_ubud_members
+  - name: normalized_data_swavibr_members
     description: This is a replica of the Postgres database used by our app
     tables:
-      - name: ubud_members
+      - name: members
         columns:
         - name : membership_type
         - name : org_id
