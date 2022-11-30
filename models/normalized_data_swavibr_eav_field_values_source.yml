@@ -1,0 +1,13 @@
+sources:
+  - name: normalized_data_swavibr_eav_field_values
+    description: This is a replica of the Postgres database used by our app
+    tables:
+      - name: eav_field_values
+        columns:
+        - name : org_id
+        - name : a_value
+        - name : field_id
+        - name : reference_identifier
+        - name : reference_type
+        - name : id
+        - name : value_op.
