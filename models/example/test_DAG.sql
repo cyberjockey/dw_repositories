@@ -8,7 +8,7 @@ with test_DAG2 as (
 
 with test_DAG3 as (
     select * from {{ source('normalized_data_swavibr_account_entries','account_entries') }}
-)
+),
 
 final as (
     select * from test_DAG1
