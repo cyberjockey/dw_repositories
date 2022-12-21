@@ -1,4 +1,4 @@
-CREATE OR REPLACE TABLE `yf_report.account_movement`
+CREATE OR REPLACE TABLE 'yf_report.account_movement'
 (
 id INT64 ,
 businessDate DATE,
